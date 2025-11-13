@@ -21,7 +21,7 @@ print(1 < x < 20)         # True
 
 # Practice Problems:
 score = int(input("Enter your score: "))
-if score >= 90:
+if score >= 90 and score <= 100:
     print("A")
 if score >= 80 and score < 90:
     print("B")
