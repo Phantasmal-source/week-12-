@@ -38,9 +38,14 @@ list_of_fruits.sort() #sorts the list in ascending order
 print(list_of_fruits)
 # Why use lists? Instead of variables
 # imagine you have a hundred items to manage
-list_of_items = list(range(1, 100)) #creates a list of numbers
+list_of_items = list(range(1, 1001)) #creates a list of numbers
 print(list_of_items)
-
+print(len(list_of_items)) # 1000
+popped_num = list_of_items.pop()
+print(popped_num)
+list_of_items.extend(range(1001, 2001))
+print(list_of_items)
+print(len(list_of_items)) #2000
 # Objective:
 # Students will understand how to create, modify, and access elements in Python lists.
 
