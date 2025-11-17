@@ -106,9 +106,10 @@ social_security_number = (123444, 444445, 555666)
 # Practice Problems:
 
 # Create a list with 5 of your favorite foods.
-
+fav_list = ["bread", "tacos", "ramen", "potato", "fish"]
 # Print the second and last item.
-
+print(fav_list[1]) # tacos
+print(fav_list[-1]) # fish
 # Add a new item using .append().
 
 # Remove the first item using .pop(0).
