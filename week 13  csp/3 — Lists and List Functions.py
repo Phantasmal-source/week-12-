@@ -111,9 +111,9 @@ fav_list = ["bread", "tacos", "ramen", "potato", "fish"]
 print(fav_list[1]) # tacos
 print(fav_list[-1]) # fish
 # Add a new item using .append().
-
+fav_list.append("burger")
 # Remove the first item using .pop(0).
-
+fav_list.pop(0)
 # Reverse your list using .reverse().
-
+fav_list.reverse()
 # Create a list of 3 lists (matrix), and access the middle element.
